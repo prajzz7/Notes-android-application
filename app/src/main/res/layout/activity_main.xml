@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:background="@drawable/lib3">
+
+<!--    <TextView-->
+<!--        android:id="@+id/txt"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/notes"-->
+<!--        android:textAllCaps="true"-->
+
+<!--        android:textColor=""-->
+<!--        android:layout_marginTop="130dp"-->
+<!--        android:textSize="35dp"-->
+<!--        android:layout_marginBottom="150dp"/>-->
+
+    <EditText
+        android:hint="Password"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/txt"
+        android:layout_centerInParent="true"
+        android:id="@+id/edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:background="#0000"
+        android:text="Enter"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:padding="25dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/txt2"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:padding="20dp"-->
+        <!--android:textSize="30dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="PASSWORD"-->
+        <!--android:layout_below="@+id/btn"-->
+        <!--android:layout_centerInParent="true"/>-->
+
+</RelativeLayout>
